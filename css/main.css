@@ -1,0 +1,252 @@
+ @import 'fltr-add.css';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.75;
+    overflow-x: hidden;
+    opacity: 1;
+    background-color: rgb(230, 227, 227);
+}
+
+.color {
+    color: rgb(230, 227, 227);
+}
+
+/* #logo-text {
+    font-size: 16px;
+} */
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: rgb(230, 227, 227);
+}
+
+p {
+    color: rgb(230, 227, 227);
+    margin-top: 40px;
+}
+
+.welcome p {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+#p:before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    display: inline-block;
+}
+
+#p:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    display: inline-block;
+}
+
+.h1 {
+    font-weight: 100%;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.6;
+    border-bottom: 1px solid white;
+}
+
+#strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+#strong .fa {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+#strong :last-child {
+    margin-left: 10px;
+    margin-right: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(236, 15, 125, 0.664);
+    padding: 14px 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: background-color .1s ease;
+}
+
+
+.ishome, .site-header {
+    min-height: 700px;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+
+.top-line {
+    width: 100%;
+    z-index: 1;
+}
+
+section, header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+ section {
+    background-clip: rgb(255, 255, 255);
+} 
+
+.logo img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.phone {
+    position: absolute;
+    right: 65px;
+    top: 40px;
+    font-size: 20px;
+    white-space: nowrap;
+    color: rgb(230, 227, 227);
+}
+
+.viki {
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    font-size: 24px;
+    white-space: nowrap;
+    color: rgb(230, 227, 227);
+    font-family: 'Courgette', cursive;
+    letter-spacing: 3px;
+}
+
+#tram .fas {
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.header-flex {
+    display: flex;
+    height: 118%;
+    position: relative;
+    top: 0;
+}
+
+.flex-center {
+    margin: auto;
+}
+
+.header-composition {
+    left: -25px;
+    text-align: center;
+    position: relative;
+}
+
+.header-social {
+    position: absolute;
+    display: flex;
+    right: 0;
+    height: 100%;
+    border-left: 2px solid rgba(255, 255, 255, 0.40);
+    top: 0;
+    padding: 0 9px;
+}
+
+.soc {
+    margin: auto;
+}
+
+.soc ul, .soc li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.soc a {
+    color: #2c2c2c;
+    font-size: 17px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    margin: 18px 0;
+    line-height: 38px;
+    border-radius: 10em;
+}
+
+.soc li :hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header-contacts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.40);
+    padding: 5px;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.829);
+}
+
+.header-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.40);
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.829);
+}
+
+#icons-head .fa {
+    color: rgb(85, 85, 85);
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+ /* @import "media"; always in the end */
